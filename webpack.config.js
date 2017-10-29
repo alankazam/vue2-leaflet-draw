@@ -1,6 +1,6 @@
 module.exports = {
     context: __dirname,
-    entry: "./Vue2LeafLetDraw.vue",
+    entry: "./index.js",
     output: {
         path: __dirname + "/dist",
         filename: "bundle.js"
