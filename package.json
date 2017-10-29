@@ -1,0 +1,20 @@
+{
+  "name": "vue2-leaflet-draw",
+  "version": "1.0.0",
+  "description": "draw plugin extension for vue2-leaflet package",
+  "author": "Nico Geyso <nico.geyso@fu-berlin.de>",
+  "private": true,
+  "scripts": {
+    "build": "webpack webpack.config.js"
+  },
+  "dependencies": {
+    "leaflet-draw": "^0.4.12",
+    "vue": "^2.5.2",
+    "vue2-leaflet": "0.0.55"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack-node-externals": "^1.5.4"
+  }
+}
