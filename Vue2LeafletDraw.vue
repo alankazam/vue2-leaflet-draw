@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>{{ title }}</h1>
     <slot></slot>
   </div>
 </template>
@@ -49,6 +50,11 @@ export default {
     options: function() {
       this._remove()
       this._add()
+    }
+  },
+  data() {
+    return {
+      title: 'Leaflet draw thing'
     }
   },
   mounted () {
