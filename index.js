@@ -1,5 +1,11 @@
-import Vue from 'vue'
-import Vue2LeafletDraw from "./Vue2LeafletDraw.vue"
+import Vue2LeafletDraw from './Vue2LeafletDraw.vue'
 
-const instance = new Vue(Vue2LeafletDraw)
-instance.$mount('#mount')
+
+function plugin(Vue, opts) {
+  Vue.component('Vue2LeafletDraw', Vue2LeafletDraw)
+}
+
+export {
+  plugin,
+  Vue2LeafletDraw
+}

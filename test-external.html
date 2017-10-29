@@ -1,0 +1,19 @@
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/vue" type="application/javascript" rel="script"></script>
+<script src="dist/bundle.js" type="application/javascript" rel="script"></script>
+</head>
+<body>
+<div id="mount">
+
+</div>
+<script>
+    Vue.use(vue2leafletdraw.plugin)
+
+    const foo = new Vue({
+      template: '<Vue2LeafletDraw></Vue2LeafletDraw>'
+    })
+    foo.$mount('#mount')
+</script>
+</body>
+</html>
